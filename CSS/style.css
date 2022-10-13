@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+background-color: #0B0723;
+}
+
+nav {
+    text-align: center; /*centrer le text*/
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a {
+    color: white;
+text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+
+.image {
+    width: 100%;
+}
+
+
+/* début de la présentation */
+
+.présentation {
+    text-align: center;
+    color: white;
+}
+
+.information {
+color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55%;
+}
+
+.informationgauche {
+    width: 60%;
+    margin-right: 10px;
+
+}
+
+.imageprofile {
+    margin-top: 2%;
+
+    float: right;
+}
+
+/* fin de la présentation */
+
+/* début hobby */
+
+.hobby {
+    background: url("../images/istockphoto-1098049814-612x612.jpg") no-repeat;
+    background-size: cover;
+    padding-bottom: 10%; /*espace crée en dessous du bloc*/
+}
+
+.differenthobby {
+    text-align: center;
+    color: white;
+}
+
+.hobby h1 {
+    text-align: center;
+}
+
+.infojeux{
+    margin-left: 23%; /*permet de décaler les case blanche vers la droite*/
+}
+
+.jeux {
+    width: 70%;
+    height: 20%;
+    background: url("../images/360_F_358345174_OA1IH3ecc7qSXitsRc5aNClVFOYePxhe.jpg") no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.jeux2 {
+    width: 70%;
+    height: 20%;
+    background: url("../images/imagemusic.jpg") no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.jeux3 {
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    background: url("../images/imagessport.jpg") no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.jeux img {
+margin-left: 30%;
+    width: 50%;
+    height: 35%;
+}
+
+/* fin de hobby */
+
+/* début conctact */
+
+.contact {
+    color: rgb(255, 255, 255);
+}
+
+.mail:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* fon de contact */
